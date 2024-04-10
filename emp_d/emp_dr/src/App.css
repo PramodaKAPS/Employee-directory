@@ -1,0 +1,1195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.my-Login-button {
+  margin-right: 10px;
+  background-color: #007bff; /* Custom color */
+  border-color: #007bff; /* Custom border color */
+}
+
+.my-login-button:hover {
+  background-color: #0056b3; /* Darker shade for hover state */
+  border-color: #0056b3;
+}
+
+/* For a circular button, add this to your CSS */
+.btn-circle {
+  border-radius: 50%;
+  width: 40px; /* Ensure width and height are equal */
+  height: 40px;
+  padding: 6px 0px;
+  font-size: 14px;
+  text-align: center;
+}
+ 
+.homepage-background {
+ 
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Optional: Fixes the background image during scroll */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; /* Ensure it covers full height */
+  width: 100%; /* Ensure it covers full width */
+  
+}
+
+.homepage-background::before {
+  content: "";
+  position:fixed ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2021/01/14/19/30/water-5917708_1280.jpg'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Adjust the opacity as needed */
+  z-index: -1; /* Ensures the pseudo-element is behind the content */
+  height: 100%; /* Ensure it covers full height */
+  width: 100%; /* Ensure it covers full width */
+}
+
+.homepage-background2::before {
+  content: "";
+  position:fixed ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2021/01/14/19/30/water-5917708_1280.jpg'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+   /* Adjust the opacity as needed */
+  z-index: -1; /* Ensures the pseudo-element is behind the content */
+  height: 100%; /* Ensure it covers full height */
+  width: 100%; /* Ensure it covers full width */
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #333; /* Social media brand color or any color */
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Makes the icon circular */
+  text-align: center;
+  line-height: 40px; /* Centers the icon vertically */
+  font-size: 20px; /* Icon size */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover {
+  background-color: #555; /* Darker shade on hover */
+}
+
+.text-center{ 
+  color:#fff; 
+
+}
+
+body, html {
+  height: 100%; /* Make sure the parent has a defined height */
+}
+
+.right-box {
+  max-width: 900px; /* Adjust the width of your box */
+  margin-left: auto; /* Align the box to the right */
+   /* Add some padding inside the box */
+  border: 2px solid #ddd; /* Add a border to visualize the box */
+  border-radius: 20px; /* Optional: round the corners of the box */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: add a shadow for depth */
+  background-color: #ffffff; /* Optional: set a background color */
+  right: 0; /* Align to the right */
+  bottom: 10%; /* Align to the bottom */
+  top: 50%;
+  display: flex;
+  flex-direction: column; /* Stack them vertically */
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .right-box {
+    flex-direction: column; /* Keeps the vertical stacking on mobile */
+  }
+}
+
+.carousel .d-block {
+  width: 100%;
+  height: auto; /* Ensure the image scales correctly */
+
+  border-radius: 20px
+}
+
+.right-box .carousel-caption {
+  background: rgba(0, 0, 0, 0.0); /* Semi-transparent background */
+  color: #fff; /* White text color */
+  padding: 10px; /* Some padding */
+  border-radius: 5px; /* Rounded corners for the caption */
+  bottom: 80%; /* Positioning from the bottom */
+}
+
+.right-box .carousel-caption h3 {
+  
+  font-family: 'Inter';
+  font-style: bolt;
+  font-weight: 400;
+  font-size: 30px;
+  right: 0%;
+  bottom:0%;
+  top: 50%;
+  line-height: 24px;
+  color: #D2D2D2;
+}
+
+@media (max-width: 768px) {
+  .right-box .carousel-caption h3 {
+    font-size: 16px; /* Smaller font size for mobile */
+    color: #D2D2D2; /* Lighter color for mobile */
+    /* Additional mobile-specific styles here */
+  }
+}
+
+/* Your Sri Lankan Identify in Cyberspace */
+
+
+
+@media (max-width: 768px) {
+  .carousel-container {
+    order: -1; /* This ensures the carousel is always the first item in mobile view */
+  }
+}
+
+/* Welcome LK Domain Registry */
+.welcome{
+
+
+text-align: center; /* Centers text horizontally */
+display: flex;
+flex-direction: column;
+justify-content: center; /* Centers text vertically */
+height: 100%; /* Take up full height of its container */
+
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+}
+
+/* Employee Directory */
+.empd{
+
+
+text-align: center; /* Centers text horizontally */
+display: flex;
+flex-direction: column;
+justify-content: center; /* Centers text vertically */
+height: 100%; /* Take up full height of its container */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+.site-container {
+  
+  min-height: 90vh; /* Full viewport height */
+ 
+}
+
+.login-button-class {
+  position: absolute;
+  width: 368px;
+  height: 162px;
+  left: 62px;
+  top: 300px;
+  background: #00417C;
+  border-radius: 80px ;
+  color: #ffffff; /* Assuming you want white text */
+  border: none; /* Removes the default border */
+  padding: 10px 20px;
+  font-size: 40px;
+  
+}
+
+.login-button-class {
+  font-size: 20px; /* Adjusts the font size of the label if `CustomButton` supports `labelClassName` */
+}
+-label {
+  font-size: 20px; /* Adjusts the font size of the label if `CustomButton` supports `labelClassName` */
+}
+
+
+@media (max-width: 768px) {
+  .login-button-class {
+    width: 200px; /* Adjusted width for smaller screens */
+    height: 81px; /* Adjusted height for smaller screens */
+    font-size: 20px; /* Adjusted font size for readability */
+    position: relative; /* Change positioning to relative */
+    padding-bottom: 20px;
+    
+    right: 50%;
+  
+    margin: center;
+    transform: translateX(-50%); /* Adjust for exact centering */
+    top: auto; /* Reset top property */
+   
+    margin-top: 20px; /* Add space above the button, adjust as needed */
+    margin-bottom: 20px;
+    order: 1; /* Ensures it comes after the carousel in a flex or grid layout */
+  }
+}
+
+.signup-button-class {
+  position: absolute;
+  width: 368px;
+  height: 162px;
+  left: 62px;
+  top: 550px;
+  background: #00417C;
+  border-radius: 80px ;
+  color: #ffffff; /* Assuming you want white text */
+  border: none; /* Removes the default border */
+  padding: 10px 20px;
+  font-size: 40px;
+}
+
+
+@media (max-width: 768px) {
+  .signup-button-class {
+    width: 200px; /* Adjusted width for smaller screens */
+    height: 81px; /* Adjusted height for smaller screens */
+    font-size: 20px; /* Adjusted font size for readability */
+    position: relative; /* Change positioning to relative */
+    padding-bottom: 20px;
+    
+    right: 50%;
+  
+    margin: center;
+    transform: translateX(-50%); /* Adjust for exact centering */
+    top: auto; /* Reset top property */
+   
+    margin-top: 20px; /* Add space above the button, adjust as needed */
+    margin-bottom: 20px;
+    order: 2; /* Ensures it comes after the carousel in a flex or grid layout */
+  }
+}
+
+
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-content {
+  background-color: white;
+  /* padding: 0 0px 20px 20px; */
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-content h2 {
+  margin-top: 0;
+  background-color: #d1d7dd;
+  padding-top: 20%;
+  margin-top: 0%;
+  background: #C7D8DA;
+  border-radius: 40px 40px 0px 0px;
+  padding: 20px 40px 40px 40px;
+  top:0;
+  position: static;
+  width:100%;
+  align-items: center;
+  
+  box-sizing: border-box;
+}
+
+.login-content form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  display:table;
+
+}
+
+.login-content label {
+  margin-bottom: 10px;
+  
+}
+
+.login-content input {
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.login-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-submit {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: rgb(63, 51, 51);
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-footer button:hover {
+  background-color: #0056b3;
+}
+
+.input-field{
+  padding: 12px 20px; /* Size of the padding inside the input */
+  margin: 8px 0; /* Spacing between input fields */
+  display: inline-block; /* Allows the input to sit next to other inline elements */
+  border: 0px solid #ffffff; /* Color of the border */
+  border-radius: 8px; /* Rounded corners */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  margin-right:-10%;
+}
+
+
+
+.wellog{
+  padding: 30px;
+}
+
+
+.wellog h2 {
+  padding: 40px;
+  position: absolute;
+  left: 20%;
+  margin-right: 0%;
+  color: #ffffff;
+  
+
+}
+
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1040; /* High z-index to ensure it's above other content */
+  overflow: auto;
+
+
+}
+
+
+
+
+.modal-container {
+  background-color: white;
+  /* padding: 0 0px 20px 20px; */
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+ 
+}
+
+.modal-close-button {
+  float: right;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.modal-container h2 {
+  margin-top: 0;
+  background-color: #d1d7dd;
+  padding-top: 20%;
+  margin-top: 0%;
+  background: #C7D8DA;
+  border-radius: 40px 40px 0px 0px;
+  padding: 20px 40px 40px 40px;
+  top:0;
+  position: static;
+  width:100%;
+  align-items: center;
+  
+  box-sizing: border-box;
+}
+
+.modal-container form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.modal-container label {
+  margin-bottom: 10px;
+}
+
+.modal-container input[type="email"],
+.modal-container input[type="password"],
+.modal-container input[type="checkbox"] {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.modal-container p {
+  text-align: center;
+}
+
+
+.form-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+.form-label input[type="email"],
+.form-label input[type="password"],
+.form-label input[type="checkbox"],
+.form-label input[type="text"]{
+  margin-left: 10px; /* Space between label and input */
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-label input[name="gender"]{
+  margin-left: 10px; /* Space between label and input */
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-label input[type="file"]{
+  margin-left: 10px; /* Space between label and input */
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 30%; 
+}
+
+
+
+
+.form-label input[name="address"]{
+  margin-left: 1%; /* Space between label and input */
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  size:100%;
+  width: calc(100% - 2%); /* Assuming you want to maintain the 1% margin on both sides */
+  box-sizing: border-box;
+
+}
+
+/* Styles for the checkbox label to ensure alignment */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin-right: 5px; /* Space between checkbox and text */
+}
+
+.employee-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  justify-content: space-betwcneen;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right:20% ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%; 
+}
+
+.employee-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.employee-info {
+  flex-grow: 1;
+}
+
+.employee-info {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* Three columns: name/position, department, email */
+  gap: 20px;
+  align-items: center;
+}
+
+.name-and-position {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.employee-name, .employee-role {
+  margin: 0;
+}
+
+.employee-department {
+  text-align: center;
+  justify-self: center; /* Center the department in its grid cell */
+}
+
+.employee-email {
+  justify-self: end; /* Align the email to the end of its grid cell */
+  white-space: nowrap;
+}
+
+
+
+.employee-name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.employee-role {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.employee-department {
+  font-size: 14px;
+  color: #666;
+
+}
+
+.employee-email {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.employee-actions {
+  /* Style for your action buttons or icons */
+}
+
+.emphead{
+  
+  background-color: #C7D8DA;
+  justify-content: space-between;
+  border-radius: 40px 40px 0px 0px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  height: 120px;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+.empheadt{
+  display: flex;
+  justify-content: center;
+
+}
+
+.empheadt h2{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+}
+
+.addEmp-button-class{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 20px;
+}
+
+
+/* Add Employee */
+
+position: absolute;
+width: 132px;
+height: 24px;
+left: 827px;
+top: 165px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #F7F7F7;
+
+/* Personal Information */
+
+
+
+.formhead{
+  align-items: flex-start;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+.form-group p{
+  
+  font-family: 'Courier New',;
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+
+
+.select-box {
+  margin-left: 20px; /* Space between label and input */
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  counter-reset: white;
+}
+
+.circular-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 20%;
+  
+  
+}
+
+.gselect-box {
+  margin-left: 85px; /* Space between label and input */
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  counter-reset: white;
+}
+
+.mselect-box {
+  margin-left:-30px; /* Space between label and input */
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  counter-reset: white;
+}
+
+.dselect-box {
+  margin-left:-10px; /* Space between label and input */
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  counter-reset: white;
+}
+
+/* EmployeeProfile.css */
+.employee-profile {
+  font-family: 'Arial', sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.action-button {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+.edit {
+  background-color: #03375C;
+  color: white;
+  
+}
+
+.back {
+  background-color: #0C4C7A;
+  color: white;
+ 
+}
+
+.profile-card {
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+
+  margin-left: 10%;
+  margin-right:10%;
+  margin-top:10%
+}
+
+.profile-image-container {
+  margin-right: 20px;
+}
+
+.profile-image {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  border-radius: 10%;
+  object-fit: cover;
+  margin-top: 25%;
+  
+}
+
+.profile-info {
+  flex-grow: 1;
+  margin-left: 2%;
+  
+}
+
+.profile-info h2 {
+  flex-grow: 1;
+  margin-right: 65%;
+  font-weight :bold;
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.info-section  {
+  
+  margin-left: 5%;
+ 
+  
+}
+
+
+.info-section h3 {
+  flex-grow: 1;
+  margin-right: 60%;
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+
+
+.profile-actions{
+  margin-left: 80%;
+  display: flex; /* Aligns children (buttons) in a row */
+  justify-content: start; /* Aligns buttons to the start of the container */
+  gap: 20px;
+}
+
+.buttons-container2 {
+  margin-left: 80%;
+  display: flex; /* Aligns children (buttons) in a row */
+  justify-content: start; /* Aligns buttons to the start of the container */
+  gap: 20px;
+  width:20%;
+}
+
+.nameAndpic{
+  
+  display: flex; /* Aligns children (buttons) in a row */
+  justify-content: start; /* Aligns buttons to the start of the container */
+  gap: 20px;
+}
+
+.info-section1 p {
+  background-color: #f8f9fa;
+  background-size: 200%;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  
+  margin-right: 5%;
+  
+ 
+}
+
+
+
+
+/* EmployeeDetails.css */
+.employee-details {
+  /* Apply your styles */
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  object-fit: cover;
+}
+
+.upload-photo {
+  display: inline-block;
+  cursor: pointer;
+  /* Additional styles */
+}
+
+.info-group {
+  margin-bottom: 10px;
+}
+
+.info-group label {
+  display: block;
+}
+
+.info-group input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  /* Additional styles */
+}
+
+.edit-icon {
+  cursor: pointer;
+  float: right;
+}
+
+.save-button {
+  /* Style your save button */
+}
+
+.back-button button {
+  /* Style your back button */
+}
+
+
+
+.profile-image-container img {
+  margin-top: 20%;
+  width: 180px;
+  height: 180px;
+  border-radius: 20%; /* This creates rounded corners */
+  object-fit: cover; /* Ensures the image covers the space without stretching */
+}
+
+.action-button back{
+  width: 150px;
+}
+
+.p-4{
+  align-content: center;
+}
+
+.search-container{
+  display: flex;
+  justify-content: flex-end;
+  margin-right:20% ;
+  border-radius: 60px;
+
+}
+
+.input-field2 {
+  outline: none; /* Removes the default focus outline */
+  border-color: #007bff; /* Example: change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adds a glow effect */
+  border-radius: 60px;
+}
+
+.info-section2 {
+  background-color: #f8f8f8; /* Light background for the entire section */
+  padding: 80px;
+  border-radius: 8px; /* Optional: rounds the corners */
+  width: 1200px;
+  margin-bottom: 2%;
+  
+  
+}
+
+.form-row {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  background-color: white; /* White background for each row */
+  margin-bottom: 10px; /* Adds some space between each row */
+  padding: 60px; /* Adds some padding inside each row */
+  border-radius: 4px; /* Optional: rounds the corners of each row */
+}
+
+.form-row label {
+  margin-right: 10px; /* Adds some space between the label and the input/select */
+  min-width: 120px; /* Ensures labels have enough space and are aligned */
+}
+
+.form-row input,
+.form-row select {
+  flex: 1; /* Allows input/select elements to take up remaining space */
+  padding: 40px;
+  border: 1px solid #ccc; /* Adds a border to the inputs/selects */
+  border-radius: 4px; /* Optional: rounds the corners of the inputs/selects */
+}
+
+
+.info-section {
+  background-color: #f9f9f9; /* Slightly different background color if needed */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 2%;
+  
+}
+
+
+.info-section .form-row {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.info-section .form-row label {
+  margin-right: 10px;
+  min-width: 120px;
+}
+
+.info-section .form-row input,
+.info-section .form-row select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.info-section {
+  background-color: #f9f9f9; /* Light background for the entire section */
+  padding: 20px;
+  border-radius: 8px; /* Optional: rounds the corners of the section */
+}
+
+.form-row {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  background-color: white; /* White background for each row */
+  margin-bottom: 10px; /* Adds some space between each row */
+  padding: 10px; /* Adds some padding inside each row */
+  border-radius: 4px; /* Optional: rounds the corners of each row for a polished look */
+}
+
+.form-row label {
+  margin-right: 10px; /* Adds some space between the label and the input/select */
+  min-width: 120px; /* Ensures labels have enough space and are aligned */
+}
+
+.form-row input,
+.form-row select {
+  flex: 1; 
+  padding: 8px;
+  border: 1px solid #ccc; 
+}
+
+/* In App.css or another stylesheet */
+.content-container {
+  padding-bottom: 120px; /* Adjust based on the height of your footer plus desired space */
+  margin-top: 2.5%;
+}
+
+
+.homeicons {
+  
+  margin-left: 80%; /* Pushes the icon to the right */
+  font-size: 48px; /* Enlarge the icon */
+  /* Adjust margin if needed for spacing between text and icon */
+}
+
+.login-button-class {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center content horizontally */
+  gap: 8px; 
+  
+}
+.one {
+  
+  margin-left: 80%; /* Pushes the icon to the right */
+  font-size: 4px; /* Enlarge the icon */
+  /* Adjust margin if needed for spacing between text and icon */
+}
+
+
+/* Adjustments for tablets */
+@media (max-width: 768px) {
+  .empd div {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
+
+  .login-button-class, .signup-button-class {
+    padding: 10px; /* Adjust button padding */
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .homeicons {
+    font-size: 20px; /* Adjust icon size */
+  }
+}
+
+/* Adjustments for mobile phones */
+@media (max-width: 576px) {
+  
+
+  
+  .homeicons {
+    font-size: 18px; /* Adjust icon size for mobile */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .login-button-class  h3 {
+    font-size: 16px; /* Slightly reduce font size for tablets */
+    /* Adjust other properties as needed */
+  }
+}
+
+/* Responsive adjustments for mobile phones */
+@media (max-width: 576px) {
+  .login-button-class , .signup-button-class h3 {
+    font-size: 14px; /* Further reduce font size for smaller screens */
+    /* You can also adjust line-height for better readability on mobile */
+    line-height: 1.2;
+  }
+}
+
+.navigation-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures the navigation bar extends full viewport width */
+  z-index: 1050;
+  background-color: #FFF; /* Background color to ensure text is readable */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.footer-wrapper{
+  position: fixed;
+  z-index: 1050;
+
+}
+
