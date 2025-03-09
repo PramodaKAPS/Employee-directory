@@ -1,10 +1,10 @@
 const express = require('express');
-const pool = require('../database'); // Adjust the path as necessary to point to your database configuration
+const pool = require('../database'); 
 const router = express.Router();
 
-// Route to get a list of all employees
+
 router.get('/', (req, res) => {
-  const query = 'SELECT * FROM employees'; // Adjust SQL query as needed based on your database schema
+  const query = 'SELECT * FROM employees'; 
 
   pool.query(query, (error, results) => {
     if (error) {
@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
       res.status(500).json({ message: 'Error fetching employees', error: error });
       return;
     }
-    res.json(results); // Send the results back to the client
+    res.json(results); 
   });
 });
 
