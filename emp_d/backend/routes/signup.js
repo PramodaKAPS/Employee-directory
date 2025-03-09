@@ -1,20 +1,20 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
-const pool = require('../database'); // Adjust the path as needed
+const pool = require('../database'); 
 const router = express.Router();
 
-// Define a regex for password validation: at least 8 characters long and includes at least one symbol
+
 const passwordValidationRegex = /^(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
 
 router.post('/', async (req, res) => {
     const { email, password, confirmPassword } = req.body;
 
-    // Check if all fields are filled and passwords match
+   
     if (!email || !password || password !== confirmPassword) {
         return res.status(400).send('Invalid input. Please ensure all fields are filled and passwords match.');
     }
 
-    // Validate the password against the regex
+   
     if (!passwordValidationRegex.test(password)) {
         return res.status(400).send('Password must be at least 8 characters long and include at least one symbol.');
     }
@@ -29,7 +29,7 @@ router.post('/', async (req, res) => {
                 return res.status(400).send('User already exists.');
             }
 
-            // Proceed to hash the password since it passed validation
+            
             const salt = await bcrypt.genSalt(10);
             const hashedPassword = await bcrypt.hash(password, salt);
 
