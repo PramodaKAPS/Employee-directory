@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../App.css'; // Assuming you have global styles you want to include
+import '../App.css'; 
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
