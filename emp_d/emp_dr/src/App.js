@@ -15,26 +15,16 @@ import TermsAndCon from './pages/TermsAndCon';
 
 
 function App() {
-  // const [isModalVisible, setModalVisible] = useState(false);
+
 
   
   return (
-    // <div className="App">
-    //  {/* <button onClick={() => setModalVisible(true)}>Show Login</button>
-    //   <SignupModal isVisible={isModalVisible} onClose={() => setModalVisible(false)} />  */}
-    //  {/* <Home/>  */}
-    //  {/* <LoginModal/>  */}
-    //     {/* <SignupModal/>     */}
-    //     {/* <Employees/>    */}
-    //     {/* <EmployeePage/>      */}
-    //   <AddEmployeeForm/>  
-    //  {/* <EmployeeDetailsEdit/>  */}
+  
   <div>
     
     <Router>
     <Routes>
      
-      {/* <Route path="/" element={<EmployeeList />} /> */}
       <Route path="/" element={<LoginModal/>} />
       <Route path="/signup" element={<SignupModal />} />
        <Route path="/home" element={<Home />} />
@@ -47,7 +37,6 @@ function App() {
       <Route path="/terms" element={<TermsAndCon />} />
 
 
-      {/* Add more routes as needed */}
     </Routes>
   </Router>
   
