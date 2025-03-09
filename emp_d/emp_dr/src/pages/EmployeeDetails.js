@@ -5,8 +5,7 @@ import  '../App.css';
 
 
 function EmployeeDetails({ employee }) {
-  // You would typically fetch the employee data from state or props
-  // For now, we will use static data as an example
+  
 
   return (
     <div className="employee-details-container">
