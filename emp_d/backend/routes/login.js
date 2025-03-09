@@ -1,11 +1,11 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
-const pool = require('../database'); // Adjust this to your actual database connection setup
+const pool = require('../database'); 
 const router = express.Router();
 
 router.post('/', async (req, res) => {
     const { email, password } = req.body;
-    console.log("Attempting to log in with", email, password); // Log the attempt
+    console.log("Attempting to log in with", email, password); 
 
     if (!email || !password) {
         return res.status(400).send('Email and password are required.');
