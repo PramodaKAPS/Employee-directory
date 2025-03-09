@@ -47,7 +47,7 @@ function Home() {
         label={<><h3>Employee <br></br>Details</h3></>} 
         icon={faInfoCircle}
         onClick={handleEmpDButtonClick}
-        className="login-button-class" // Custom class for additional styling
+        className="login-button-class" 
         iconClass="homeicons"
       />
       </div>
@@ -57,7 +57,7 @@ function Home() {
         label={<><h3>Add <br></br>Employee</h3></>} 
         icon={faPlusCircle}
         onClick={handleAddEmpButtonClick}
-        className="signup-button-class" // Custom class for additional styling
+        className="signup-button-class" 
         iconClass="homeicons"
       />
       
