@@ -41,19 +41,19 @@
 
 .my-Login-button {
   margin-right: 10px;
-  background-color: #007bff; /* Custom color */
-  border-color: #007bff; /* Custom border color */
+  background-color: #007bff; 
+  border-color: #007bff; 
 }
 
 .my-login-button:hover {
-  background-color: #0056b3; /* Darker shade for hover state */
+  background-color: #0056b3; 
   border-color: #0056b3;
 }
 
-/* For a circular button, add this to your CSS */
+
 .btn-circle {
   border-radius: 50%;
-  width: 40px; /* Ensure width and height are equal */
+  width: 40px; 
   height: 40px;
   padding: 6px 0px;
   font-size: 14px;
@@ -62,13 +62,12 @@
  
 .homepage-background {
  
-  background-size: cover; /* Cover the entire page */
-  background-position: center; /* Center the background image */
-  background-attachment: fixed; /* Optional: Fixes the background image during scroll */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  height: 100%; /* Ensure it covers full height */
-  width: 100%; /* Ensure it covers full width */
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed; 
+  margin: 0; 
+  height: 100%; 
+  width: 100%; 
   
 }
 
@@ -79,13 +78,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('https://cdn.pixabay.com/photo/2021/01/14/19/30/water-5917708_1280.jpg'); /* Path to your background image */
+  background-image: url('https://cdn.pixabay.com/photo/2021/01/14/19/30/water-5917708_1280.jpg'); 
   background-size: cover;
   background-position: center;
-  opacity: 0.3; /* Adjust the opacity as needed */
-  z-index: -1; /* Ensures the pseudo-element is behind the content */
-  height: 100%; /* Ensure it covers full height */
-  width: 100%; /* Ensure it covers full width */
+  opacity: 0.3; 
+  z-index: -1;
+  height: 100%; 
+  width: 100%; 
 }
 
 .homepage-background2::before {
@@ -95,13 +94,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('https://cdn.pixabay.com/photo/2021/01/14/19/30/water-5917708_1280.jpg'); /* Path to your background image */
+  background-image: url('https://cdn.pixabay.com/photo/2021/01/14/19/30/water-5917708_1280.jpg');
   background-size: cover;
   background-position: center;
-   /* Adjust the opacity as needed */
-  z-index: -1; /* Ensures the pseudo-element is behind the content */
-  height: 100%; /* Ensure it covers full height */
-  width: 100%; /* Ensure it covers full width */
+  
+  z-index: -1; 
+  height: 100%; 
+  width: 100%; 
 }
 
 
@@ -114,19 +113,19 @@
 .social-icon {
   display: inline-block;
   margin: 0 10px;
-  background-color: #333; /* Social media brand color or any color */
+  background-color: #333; 
   color: #fff;
   width: 40px;
   height: 40px;
-  border-radius: 50%; /* Makes the icon circular */
+  border-radius: 50%; 
   text-align: center;
-  line-height: 40px; /* Centers the icon vertically */
-  font-size: 20px; /* Icon size */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  line-height: 40px; 
+  font-size: 20px; 
+  transition: background-color 0.3s;
 }
 
 .social-icon:hover {
-  background-color: #555; /* Darker shade on hover */
+  background-color: #555; 
 }
 
 .text-center{ 
@@ -135,22 +134,22 @@
 }
 
 body, html {
-  height: 100%; /* Make sure the parent has a defined height */
+  height: 100%; 
 }
 
 .right-box {
-  max-width: 900px; /* Adjust the width of your box */
-  margin-left: auto; /* Align the box to the right */
-   /* Add some padding inside the box */
-  border: 2px solid #ddd; /* Add a border to visualize the box */
-  border-radius: 20px; /* Optional: round the corners of the box */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: add a shadow for depth */
-  background-color: #ffffff; /* Optional: set a background color */
-  right: 0; /* Align to the right */
-  bottom: 10%; /* Align to the bottom */
+  max-width: 900px; 
+  margin-left: auto; 
+  
+  border: 2px solid #ddd; 
+  border-radius: 20px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  background-color: #ffffff; 
+  right: 0; 
+  bottom: 10%; 
   top: 50%;
   display: flex;
-  flex-direction: column; /* Stack them vertically */
+  flex-direction: column; 
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -158,7 +157,7 @@ body, html {
 
 @media (max-width: 768px) {
   .right-box {
-    flex-direction: column; /* Keeps the vertical stacking on mobile */
+    flex-direction: column; 
   }
 }
 
@@ -312,21 +311,21 @@ color: #000000;
 
 @media (max-width: 768px) {
   .signup-button-class {
-    width: 200px; /* Adjusted width for smaller screens */
-    height: 81px; /* Adjusted height for smaller screens */
-    font-size: 20px; /* Adjusted font size for readability */
-    position: relative; /* Change positioning to relative */
+    width: 200px; 
+    height: 81px; 
+    font-size: 20px; 
+    position: relative;
     padding-bottom: 20px;
     
     right: 50%;
   
     margin: center;
-    transform: translateX(-50%); /* Adjust for exact centering */
-    top: auto; /* Reset top property */
+    transform: translateX(-50%); 
+    top: auto; 
    
-    margin-top: 20px; /* Add space above the button, adjust as needed */
+    margin-top: 20px;
     margin-bottom: 20px;
-    order: 2; /* Ensures it comes after the carousel in a flex or grid layout */
+    order: 2; 
   }
 }
 
@@ -345,7 +344,7 @@ color: #000000;
 
 .login-content {
   background-color: white;
-  /* padding: 0 0px 20px 20px; */
+ 
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -414,12 +413,12 @@ color: #000000;
 }
 
 .input-field{
-  padding: 12px 20px; /* Size of the padding inside the input */
-  margin: 8px 0; /* Spacing between input fields */
-  display: inline-block; /* Allows the input to sit next to other inline elements */
-  border: 0px solid #ffffff; /* Color of the border */
-  border-radius: 8px; /* Rounded corners */
-  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  padding: 12px 20px; 
+  margin: 8px 0; 
+  display: inline-block; 
+  border: 0px solid #ffffff; 
+  border-radius: 8px;
+  box-sizing: border-box; 
   margin-right:-10%;
 }
 
@@ -451,7 +450,7 @@ color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1040; /* High z-index to ensure it's above other content */
+  z-index: 1040; 
   overflow: auto;
 
 
@@ -462,7 +461,7 @@ color: #000000;
 
 .modal-container {
   background-color: white;
-  /* padding: 0 0px 20px 20px; */
+  
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
@@ -530,14 +529,14 @@ color: #000000;
   display: flex;
   justify-content: space-between;
   align-items: right;
-  margin-bottom: 10px; /* Adjust spacing as needed */
+  margin-bottom: 10px; 
 }
 
 .form-label input[type="email"],
 .form-label input[type="password"],
 .form-label input[type="checkbox"],
 .form-label input[type="text"]{
-  margin-left: 10px; /* Space between label and input */
+  margin-left: 10px; 
   padding: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -546,7 +545,7 @@ color: #000000;
 }
 
 .form-label input[name="gender"]{
-  margin-left: 10px; /* Space between label and input */
+  margin-left: 10px; 
   padding: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -555,7 +554,7 @@ color: #000000;
 }
 
 .form-label input[type="file"]{
-  margin-left: 10px; /* Space between label and input */
+  margin-left: 10px; 
   padding: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -567,26 +566,26 @@ color: #000000;
 
 
 .form-label input[name="address"]{
-  margin-left: 1%; /* Space between label and input */
+  margin-left: 1%; 
   padding: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   size:100%;
-  width: calc(100% - 2%); /* Assuming you want to maintain the 1% margin on both sides */
+  width: calc(100% - 2%); 
   box-sizing: border-box;
 
 }
 
-/* Styles for the checkbox label to ensure alignment */
+
 .checkbox-label {
   display: flex;
   align-items: center;
 }
 
 .checkbox-label input[type="checkbox"] {
-  margin-right: 5px; /* Space between checkbox and text */
+  margin-right: 5px; 
 }
 
 .employee-card {
@@ -617,7 +616,7 @@ color: #000000;
 
 .employee-info {
   display: grid;
-  grid-template-columns: auto 1fr auto; /* Three columns: name/position, department, email */
+  grid-template-columns: auto 1fr auto; 
   gap: 20px;
   align-items: center;
 }
@@ -634,11 +633,11 @@ color: #000000;
 
 .employee-department {
   text-align: center;
-  justify-self: center; /* Center the department in its grid cell */
+  justify-self: center; 
 }
 
 .employee-email {
-  justify-self: end; /* Align the email to the end of its grid cell */
+  justify-self: end; 
   white-space: nowrap;
 }
 
@@ -667,7 +666,7 @@ color: #000000;
 }
 
 .employee-actions {
-  /* Style for your action buttons or icons */
+  
 }
 
 .emphead{
@@ -749,7 +748,7 @@ color: #F7F7F7;
 
 
 .select-box {
-  margin-left: 20px; /* Space between label and input */
+  margin-left: 20px; 
   padding: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -769,7 +768,7 @@ color: #F7F7F7;
 }
 
 .gselect-box {
-  margin-left: 85px; /* Space between label and input */
+  margin-left: 85px; 
   padding: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -779,7 +778,7 @@ color: #F7F7F7;
 }
 
 .mselect-box {
-  margin-left:-30px; /* Space between label and input */
+  margin-left:-30px; 
   padding: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -789,7 +788,7 @@ color: #F7F7F7;
 }
 
 .dselect-box {
-  margin-left:-10px; /* Space between label and input */
+  margin-left:-10px; 
   padding: 5px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -851,8 +850,8 @@ color: #F7F7F7;
 }
 
 .profile-image {
-  width: 200px; /* Adjust as needed */
-  height: 200px; /* Adjust as needed */
+  width: 200px; 
+  height: 200px; 
   border-radius: 10%;
   object-fit: cover;
   margin-top: 25%;
@@ -894,23 +893,23 @@ color: #F7F7F7;
 
 .profile-actions{
   margin-left: 80%;
-  display: flex; /* Aligns children (buttons) in a row */
-  justify-content: start; /* Aligns buttons to the start of the container */
+  display: flex; 
+  justify-content: start; 
   gap: 20px;
 }
 
 .buttons-container2 {
   margin-left: 80%;
-  display: flex; /* Aligns children (buttons) in a row */
-  justify-content: start; /* Aligns buttons to the start of the container */
+  display: flex;
+  justify-content: start; 
   gap: 20px;
   width:20%;
 }
 
 .nameAndpic{
   
-  display: flex; /* Aligns children (buttons) in a row */
-  justify-content: start; /* Aligns buttons to the start of the container */
+  display: flex; 
+  justify-content: start; 
   gap: 20px;
 }
 
@@ -931,22 +930,22 @@ color: #F7F7F7;
 
 
 
-/* EmployeeDetails.css */
+
 .employee-details {
-  /* Apply your styles */
+  
 }
 
 .profile-picture {
   border-radius: 50%;
-  width: 100px; /* Adjust size as needed */
-  height: 100px; /* Adjust size as needed */
+  width: 100px;
+  height: 100px; 
   object-fit: cover;
 }
 
 .upload-photo {
   display: inline-block;
   cursor: pointer;
-  /* Additional styles */
+  
 }
 
 .info-group {
@@ -963,7 +962,7 @@ color: #F7F7F7;
   margin-bottom: 5px;
   border-radius: 4px;
   border: 1px solid #ccc;
-  /* Additional styles */
+  
 }
 
 .edit-icon {
@@ -972,11 +971,11 @@ color: #F7F7F7;
 }
 
 .save-button {
-  /* Style your save button */
+  
 }
 
 .back-button button {
-  /* Style your back button */
+  
 }
 
 
@@ -985,8 +984,8 @@ color: #F7F7F7;
   margin-top: 20%;
   width: 180px;
   height: 180px;
-  border-radius: 20%; /* This creates rounded corners */
-  object-fit: cover; /* Ensures the image covers the space without stretching */
+  border-radius: 20%; 
+  object-fit: cover; 
 }
 
 .action-button back{
@@ -1006,16 +1005,16 @@ color: #F7F7F7;
 }
 
 .input-field2 {
-  outline: none; /* Removes the default focus outline */
-  border-color: #007bff; /* Example: change border color on focus */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adds a glow effect */
+  outline: none; 
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
   border-radius: 60px;
 }
 
 .info-section2 {
-  background-color: #f8f8f8; /* Light background for the entire section */
+  background-color: #f8f8f8; 
   padding: 80px;
-  border-radius: 8px; /* Optional: rounds the corners */
+  border-radius: 8px; 
   width: 1200px;
   margin-bottom: 2%;
   
@@ -1024,29 +1023,29 @@ color: #F7F7F7;
 
 .form-row {
   display: flex;
-  align-items: center; /* Aligns items vertically in the center */
-  background-color: white; /* White background for each row */
-  margin-bottom: 10px; /* Adds some space between each row */
-  padding: 60px; /* Adds some padding inside each row */
-  border-radius: 4px; /* Optional: rounds the corners of each row */
+  align-items: center; 
+  background-color: white; 
+  margin-bottom: 10px; 
+  padding: 60px; 
+  border-radius: 4px; 
 }
 
 .form-row label {
-  margin-right: 10px; /* Adds some space between the label and the input/select */
-  min-width: 120px; /* Ensures labels have enough space and are aligned */
+  margin-right: 10px; 
+  min-width: 120px;
 }
 
 .form-row input,
 .form-row select {
-  flex: 1; /* Allows input/select elements to take up remaining space */
+  flex: 1; 
   padding: 40px;
-  border: 1px solid #ccc; /* Adds a border to the inputs/selects */
-  border-radius: 4px; /* Optional: rounds the corners of the inputs/selects */
+  border: 1px solid #ccc;
+  border-radius: 4px; 
 }
 
 
 .info-section {
-  background-color: #f9f9f9; /* Slightly different background color if needed */
+  background-color: #f9f9f9; 
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 2%;
@@ -1077,23 +1076,23 @@ color: #F7F7F7;
 }
 
 .info-section {
-  background-color: #f9f9f9; /* Light background for the entire section */
+  background-color: #f9f9f9; 
   padding: 20px;
-  border-radius: 8px; /* Optional: rounds the corners of the section */
+  border-radius: 8px; 
 }
 
 .form-row {
   display: flex;
-  align-items: center; /* Aligns items vertically in the center */
-  background-color: white; /* White background for each row */
-  margin-bottom: 10px; /* Adds some space between each row */
-  padding: 10px; /* Adds some padding inside each row */
-  border-radius: 4px; /* Optional: rounds the corners of each row for a polished look */
+  align-items: center; 
+  background-color: white; 
+  margin-bottom: 10px; 
+  padding: 10px; 
+  border-radius: 4px; 
 }
 
 .form-row label {
-  margin-right: 10px; /* Adds some space between the label and the input/select */
-  min-width: 120px; /* Ensures labels have enough space and are aligned */
+  margin-right: 10px; 
+  min-width: 120px; 
 }
 
 .form-row input,
@@ -1103,58 +1102,58 @@ color: #F7F7F7;
   border: 1px solid #ccc; 
 }
 
-/* In App.css or another stylesheet */
+
 .content-container {
-  padding-bottom: 120px; /* Adjust based on the height of your footer plus desired space */
+  padding-bottom: 120px; 
   margin-top: 2.5%;
 }
 
 
 .homeicons {
   
-  margin-left: 80%; /* Pushes the icon to the right */
-  font-size: 48px; /* Enlarge the icon */
-  /* Adjust margin if needed for spacing between text and icon */
+  margin-left: 80%; 
+  font-size: 48px; 
+  
 }
 
 .login-button-class {
   display: flex;
-  align-items: center; /* Align items vertically */
-  justify-content: center; /* Center content horizontally */
+  align-items: center; 
+  justify-content: center; 
   gap: 8px; 
   
 }
 .one {
   
-  margin-left: 80%; /* Pushes the icon to the right */
-  font-size: 4px; /* Enlarge the icon */
-  /* Adjust margin if needed for spacing between text and icon */
+  margin-left: 80%; 
+  font-size: 4px; 
+ 
 }
 
 
-/* Adjustments for tablets */
+
 @media (max-width: 768px) {
   .empd div {
-    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    flex-direction: column; 
   }
 
   .login-button-class, .signup-button-class {
-    padding: 10px; /* Adjust button padding */
-    font-size: 14px; /* Adjust font size */
+    padding: 10px; 
+    font-size: 14px;
   }
 
   .homeicons {
-    font-size: 20px; /* Adjust icon size */
+    font-size: 20px; 
   }
 }
 
-/* Adjustments for mobile phones */
+
 @media (max-width: 576px) {
   
 
   
   .homeicons {
-    font-size: 18px; /* Adjust icon size for mobile */
+    font-size: 18px;
   }
 }
 
@@ -1162,16 +1161,16 @@ color: #F7F7F7;
 
 @media (max-width: 768px) {
   .login-button-class  h3 {
-    font-size: 16px; /* Slightly reduce font size for tablets */
-    /* Adjust other properties as needed */
+    font-size: 16px; 
+   
   }
 }
 
 /* Responsive adjustments for mobile phones */
 @media (max-width: 576px) {
   .login-button-class , .signup-button-class h3 {
-    font-size: 14px; /* Further reduce font size for smaller screens */
-    /* You can also adjust line-height for better readability on mobile */
+    font-size: 14px; 
+    
     line-height: 1.2;
   }
 }
@@ -1180,9 +1179,9 @@ color: #F7F7F7;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* Ensures the navigation bar extends full viewport width */
+  width: 100%; 
   z-index: 1050;
-  background-color: #FFF; /* Background color to ensure text is readable */
+  background-color: #FFF; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
